@@ -1,0 +1,11 @@
+Cleiton deseja encontrar um professor particular para aulas de lógica de desenvolvimento
+
+Ele encontra o Busca Teacher e decide usar o Site, pois no topo está escrito "Busca Teacher"
+
+ele ve um campo de pesquisar professores pelo nome
+
+Ele pesquisa por Géri e clica no botao pesquisar
+
+O site exibe 4 caracteristicas do professor pesquisado
+
+Ele desiste de ter aulas com o geri. 

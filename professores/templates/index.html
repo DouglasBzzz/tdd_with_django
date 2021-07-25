@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Professor</title>
+</head>
+<body>
+    <a class="navbar">Busca Professor</a>
+
+    <form action="">
+        <input type="text" id="busca-professor" placeholder="Exemplo: Géri" name="buscar"/>
+        <button type="submit" value="Pesquisar">Pesquisar</button>
+    </form>
+
+    {% for caracteristica in caracteristicas %}
+
+        <div class="result-description">{{ caracteristica.nome_professor }}</div>
+        <div class="result-description">{{ caracteristica.formacao }}</div>
+        <div class="result-description">{{ caracteristica.tempo_de_experiencia_em_anos }}</div>
+        <div class="result-description">{{ caracteristica.area_de_atuacao }}</div>
+    
+    {% endfor %}
+
+</body>
+</html>
